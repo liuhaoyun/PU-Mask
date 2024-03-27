@@ -29,13 +29,13 @@ When running the code, if you have `undefined symbol: _ZTIN10tensorflow8OpKernel
    ```
 
 4. Evaluate the model:
-    First, you need to download the pretrained model from `/log` (automatically generated during training), extract it and put it in folder `model`.
+    First, you need to download the pretrained model from `/log` (automatically generated during training), extract it and put it in your created folder `model`,
     Then run:
     
    ```shell
    python pu_mask.py --phase test
    ```
-   You will see the input and output results in the folder `data/test/output`.
+  We also provided the trained [model](https://drive.google.com/file/d/1qBVF8m_v79rwrN8RhuAcx8yiSB-l201q/view?usp=drive_link), and you will see the input and output results in the folder `data/test/output`.
    
 5. The training and testing mesh files can be downloaded from [GoogleDrive](https://drive.google.com/open?id=1BNqjidBVWP0_MUdMTeGy1wZiR6fqyGmC).
 
