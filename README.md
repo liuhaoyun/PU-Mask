@@ -29,7 +29,7 @@ When running the code, if you have `undefined symbol: _ZTIN10tensorflow8OpKernel
    ```
 
 4. Evaluate the model:
-    First, you need to download the pretrained model from `/log` (automatically generated during training), extract it and put it in your created folder `model`,
+    First, you need to download the pretrained model from `/log` (automatically generated during training), extract it and put it in your created folder `/model`,
     Then run:
     
    ```shell
